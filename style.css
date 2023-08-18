@@ -160,17 +160,6 @@ section {
   padding: 100px;
 }
 
-#about::after {
-  content: "";
-  width: 25%;
-  height: 100%;
-  background-color: var(--brand);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
 #about img {
   border-radius: 30%;
 }
