@@ -11,10 +11,11 @@
 body {
   font-family: Inter, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   color: black;
   line-height: 1.8;
   background-color: var(--bg1);
+  width: 100vw;
 }
 
 h1,
@@ -54,9 +55,6 @@ a:hover {
   color: var(--black);
 }
 
-img {
-  width: 100%;
-}
 
 section {
   padding-top: 160px;
@@ -157,11 +155,14 @@ section {
 /* ABOUT */
 #about {
   position: relative;
-  padding: 100px;
+  padding: 40px;
+  max-height: 800px;
 }
 
-#about img {
+#about .about-pic{
   border-radius: 30%;
+  max-width: 100%;
+  max-height: 70%;
 }
 
 #about h6 {
@@ -174,8 +175,13 @@ section {
   margin-bottom: 24px;
 }
 
+#about .col-md-8 {
+  width: 50%;
+}
+
 #about .signature {
-  width: unset;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* FOOTER */
