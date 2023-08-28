@@ -124,11 +124,6 @@ section {
   border-radius: 20px;
 }
 
-#gallery-button {
-  display: flex;
-  justify-content: center;
-}
-
 .btn-brand {
   background-color: var(--brand);
 }
